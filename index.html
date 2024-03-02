@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="./images/creator/LUXURY.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>LUXURY</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="./images/creator/LUXURY.png" alt="logo"></div>
+			<ul>
+				
+				<li><a href="">Home</a></li>
+				<li><a href="#About_section">About</a></li>
+				<li><a href="#Trendings_section">Trendings</a></li>
+				<li><a href="#Brands_section">Brands</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				
+			</ul>
+			
+			<a class="get-started" href="login.html"><b>Login</b></a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+
+		<section>
+
+			<div class="wrapper">
+					<div class="bg">Experience the Art of Luxury! <br>~read more..</div>
+					<div class="fg">Experience the Art of Luxury! <br>~read more..</div>
+					<div > <p class="quote" data-text="[Neon-Light]"> "<span>I</span>ndulge in the epitome of sophistication and style.Our curated selection of Lu<span>xu</span>ry offerings promises to elevate every moment, creating a lifestyle that transcends the ordinary. Welcome to a world where <span>l</span>uxury knows no bounds..."</p></div>
+			</div>
+
+			<div><h3 class="word"><b>------------------------------------------<br><br>  ~~{'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, accusamus autem doloremque similique architecto, aperiam perspiciatis, quam maiores amet fugit sit id dolor odio labore natus! Dolorem cum error eligendi!'}~~ <br><br>------------------------------------------ </b></h3></div>
+		</section>
+<!-- side menu-->
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/sathiya.jpg" alt="Username">
+				<p>Sathiyapriya S</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Trendings</a></li>
+				<li><a href="#team_section">Brands</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				
+			</ul>
+		</div>
+	</header>
+
+</body>
+</html>
